@@ -103,7 +103,7 @@ Proxy:
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ca15
+  ws-path: /fab4
 
 - name: "com_LA"
   type: vmess
