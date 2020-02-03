@@ -94,7 +94,17 @@ Proxy:
 # 更多协议配置示例：https://github.com/Dreamacro/clash/blob/master/README.md
 
 # VMess
-- { name: "top_SG", type: vmess, server: marsho.top, port: 443, uuid: 5f68637b-c7f3-4820-8713-24b3289ed716, alterId: 64, cipher: auto, network: ws, ws-path: /ca15, tls: true }
+- name: "top_SG"
+  type: vmess
+  server: marsho.top
+  port: 443
+  uuid: 5f68637b-c7f3-4820-8713-24b3289ed716
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ca15
+
 - name: "com_LA"
   type: vmess
   server: marshebo.com
