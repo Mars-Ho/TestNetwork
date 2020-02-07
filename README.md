@@ -28,8 +28,9 @@ wordpress+v2ray_ws_tls1.3一键脚本：
   + `cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/Mars-Ho/TestNetwork/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh`
 
 + 6、再次执行tcp.sh代码，开启网络优化  
-`cd /usr/src && ./tcpPlus.sh`  
-`cd /usr/src && ./tcp.sh`
+  + `cd /usr/src && ./tcpPlus.sh`  
+
+  + `cd /usr/src && ./tcp.sh`
 
   
   
