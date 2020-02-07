@@ -23,9 +23,11 @@ wordpress+v2ray_ws_tls1.3一键脚本：
   `vi /etc/v2ray/myconfig.json`
 
 + 5、建议搭配BBR使用，速度更快，分享一下网上的BBR一键脚本，先安装内核，重启后再次执行脚本安装加速。  
+`cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/Mars-Ho/TestNetwork/master/tcpPlus.sh" && chmod +x tcpPlus.sh && ./tcpPlus.sh`  
 `cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/Mars-Ho/TestNetwork/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh`
 
 + 6、再次执行tcp.sh代码，开启网络优化  
+`cd /usr/src && ./tcpPlus.sh`  
 `cd /usr/src && ./tcp.sh`
 
   
@@ -42,6 +44,7 @@ wordpress+v2ray_ws_tls1.3一键脚本：
   `systemctl restart trojan`
 
 + 2、安装BBR  
+`cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/Mars-Ho/TestNetwork/master/tcpPlus.sh" && chmod +x tcpPlus.sh && ./tcpPlus.sh`  
 `cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/Mars-Ho/TestNetwork/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh`
 
 Windows下使用FTP客户端，可以在主机中找到网站源文件，路径是/usr/share/nginx/html/目录下
