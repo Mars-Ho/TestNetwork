@@ -110,12 +110,12 @@ Proxy:
   type: vmess
   server: code.marshebo.com
   port: 443
-  uuid: d62c8922-2d89-4b84-acb7-5d0f22dd2e82
-  alterId: 32
+  uuid: e496940d-816b-483c-a6bd-e45f96f2a0ac
+  alterId: 64
   cipher: auto
   tls: true
   network: ws
-  ws-path: /a762
+  ws-path: /70a4
 
 # 代理组策略
 Proxy Group:
