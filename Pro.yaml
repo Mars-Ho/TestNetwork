@@ -108,14 +108,14 @@ Proxy:
 
 - name: "top"
   type: vmess
-  server: marshebo.com
+  server: code.marshebo.com
   port: 443
-  uuid: 12345678-2345-3456-4567-24b3289ed716
-  alterId: 2
+  uuid: d62c8922-2d89-4b84-acb7-5d0f22dd2e82
+  alterId: 32
   cipher: auto
   tls: true
   network: ws
-  ws-path: /b18d
+  ws-path: /a762
 
 # 代理组策略
 Proxy Group:
