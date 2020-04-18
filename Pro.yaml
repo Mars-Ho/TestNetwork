@@ -108,7 +108,7 @@ Proxy:
 
 - name: "top"
   type: vmess
-  server: code.marshebo.com
+  server: marsho.top
   port: 443
   uuid: e496940d-816b-483c-a6bd-e45f96f2a0ac
   alterId: 64
