@@ -105,7 +105,7 @@ Proxy:
   tls: true
   network: ws
   ws-path: /b18d
-  
+
 - name: "top"
   type: trojan
   server: marsho.top
