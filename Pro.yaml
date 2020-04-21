@@ -106,11 +106,11 @@ Proxy:
   network: ws
   ws-path: /b18d
   
- - name: "top" # 软件显示的节点名字
+ - name: "top"
   type: trojan
-  server: marsho.top # 服务器域名
+  server: marsho.top
   port: 443
-  password: ilovehangzhou #Trojan 密码
+  password: ilovehangzhou
 
 # 代理组策略
 Proxy Group:
