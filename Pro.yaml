@@ -106,7 +106,7 @@ Proxy:
   network: ws
   ws-path: /b18d
   
- - name: "top"
+- name: "top"
   type: trojan
   server: marsho.top
   port: 443
