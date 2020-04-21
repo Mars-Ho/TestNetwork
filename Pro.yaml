@@ -105,17 +105,12 @@ Proxy:
   tls: true
   network: ws
   ws-path: /b18d
-
-- name: "top"
-  type: vmess
-  server: marsho.top
+  
+ - name: "top" # 软件显示的节点名字
+  type: trojan
+  server: marsho.top # 服务器域名
   port: 443
-  uuid: e496940d-816b-483c-a6bd-e45f96f2a0ac
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /70a4
+  password: ilovehangzhou #Trojan 密码
 
 # 代理组策略
 Proxy Group:
