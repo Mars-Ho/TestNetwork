@@ -103,6 +103,7 @@ Proxy:
   alterId: 64
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
   ws-path: /b18d
 - name: "top"
