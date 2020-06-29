@@ -97,13 +97,13 @@ Proxy:
 
 - name: "com_LA"
   type: vmess
+  skip-cert-verify: false
   server: marshebo.com
   port: 443
   uuid: 5f68637b-c7f3-4820-8713-24b3289ed716
   alterId: 64
   cipher: auto
   tls: true
-  skip-cert-verify: false
   network: ws
   ws-path: /b18d
 - name: "top"
