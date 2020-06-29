@@ -97,7 +97,6 @@ Proxy:
 
 - name: "com_LA"
   type: vmess
-  skip-cert-verify: false
   server: marshebo.com
   port: 443
   uuid: 5f68637b-c7f3-4820-8713-24b3289ed716
@@ -106,6 +105,7 @@ Proxy:
   tls: true
   network: ws
   ws-path: /b18d
+  skip-cert-verify: true
 - name: "top"
   type: trojan
   server: marsho.top
