@@ -110,7 +110,7 @@ Proxy:
 # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
   - name: "vmess"
     type: vmess
-    server: marshebo.com
+    server: vmess.com
     port: 443
     uuid: 5f68637b-c7f3-4820-8713-24b3289ed716
     alterId: 64
