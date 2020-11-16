@@ -145,7 +145,7 @@ proxies:
   # VMess(Websocket + TLS)
   - name: "US"
     type: vmess
-    server: marshebo.com
+    server: vmess.com
     port: 443
     uuid: 5f68637b-c7f3-4820-8713-24b3289ed716
     alterId: 64
